@@ -1,0 +1,818 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>React App</title>
+    <script defer="defer" src="/static/js/main.b10677b5.js"></script>
+    <link href="/static/css/main.7c82f8f1.css" rel="stylesheet">
+    <style data-jss="" data-meta="MuiSvgIcon">
+        .MuiSvgIcon-root {
+            fill: currentColor;
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            font-size: 1.5rem;
+            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+        .MuiSvgIcon-colorPrimary {
+            color: #3f51b5;
+        }
+
+        .MuiSvgIcon-colorSecondary {
+            color: #f50057;
+        }
+
+        .MuiSvgIcon-colorAction {
+            color: rgba(0, 0, 0, 0.54);
+        }
+
+        .MuiSvgIcon-colorError {
+            color: #f44336;
+        }
+
+        .MuiSvgIcon-colorDisabled {
+            color: rgba(0, 0, 0, 0.26);
+        }
+
+        .MuiSvgIcon-fontSizeInherit {
+            font-size: inherit;
+        }
+
+        .MuiSvgIcon-fontSizeSmall {
+            font-size: 1.25rem;
+        }
+
+        .MuiSvgIcon-fontSizeLarge {
+            font-size: 2.1875rem;
+        }
+
+        element.style {}
+
+        body {
+            margin: 0;
+        }
+
+        body {
+            display: block;
+            margin: 8px;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        head {
+            display: none;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        div {
+            display: block;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .center {
+            align-items: center;
+            display: flex;
+        }
+
+        .header {
+            height: 8em;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1100px;
+            width: 95%;
+        }
+
+        user agent stylesheet header {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .center {
+            align-items: center;
+            display: flex;
+        }
+
+        .about {
+            flex-direction: column;
+            margin-top: 3em;
+        }
+
+        user agent stylesheet div {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        h3 {
+            display: block;
+            font-size: 1.17em;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .center {
+            align-items: center;
+            display: flex;
+        }
+
+        user agent stylesheet nav {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .nav__list {
+            display: flex;
+            margin-right: 1.5em;
+            text-decoration: none;
+        }
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+
+        .nav__list-item,
+        a {
+            text-decoration: none;
+        }
+
+        .nav__list-item {
+            list-style: none;
+            margin-left: 1.5em;
+        }
+
+        li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+
+        .nav__list {
+            display: flex;
+            margin-right: 1.5em;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-top: 5em;
+        }
+
+        user agent stylesheet section {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .ul {
+            list-style-type: disc;
+        }
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        .link:before {
+            background-color: var(--clr-primary);
+            bottom: 0;
+            content: "";
+            display: inline;
+            height: 0.2em;
+            position: absolute;
+            transition: width .2s ease-in;
+            width: 0;
+        }
+
+        .projects__grid {
+            grid-gap: 2em;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+            margin: 0 auto;
+            max-width: 1100px;
+        }
+
+        div {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .project {
+            background-color: bisque;
+            background-image: linear-gradient(90deg, #fbc2eb 0, #a6c1ee 51%, #fbc2eb);
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .5);
+            cursor: pointer;
+            margin: 0 auto;
+            padding: 2em;
+            text-align: center;
+            transition: -webkit-transform .2s linear;
+            transition: transform .2s linear;
+            transition: transform .2s linear, -webkit-transform .2s linear;
+        }
+
+        div {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .btn--plain {
+            background-color: var(--clr-bg-alt);
+            border: 0;
+            box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .15);
+            text-transform: none;
+        }
+
+        .btn {
+            cursor: pointer;
+            display: block;
+            font-size: .9rem;
+            font-weight: 500;
+            padding: 0.8em 1.4em;
+            text-transform: lowercase;
+            transition: -webkit-transform .2s ease-in-out;
+            transition: transform .2s ease-in-out;
+            transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+        }
+
+        .skills__list-item {
+
+            margin: 0.5em;
+        }
+
+        user agent stylesheet li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+
+        user agent stylesheet ul {
+            list-style-type: disc;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .section__title {
+            margin-bottom: 1em;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        user agent stylesheet h2 {
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .contact {
+            flex-direction: column;
+            font-family: Roboto;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        .glow-on-hover {
+            background: #111;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+            height: 50px;
+            outline: none;
+            padding-top: 15px;
+            position: relative;
+            text-align: center;
+            width: 180px;
+            z-index: 0;
+        }
+
+        button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        }
+
+        a {
+            font-family: Roboto;
+        }
+
+        .nav__list-item,
+        a {
+            text-decoration: none;
+        }
+
+        user agent stylesheet a:-webkit-any-link {
+            color: -webkit-link;
+            cursor: pointer;
+        }
+
+        .contact {
+            flex-direction: column;
+            font-family: Roboto;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .glow-on-hover:before {
+            -webkit-animation: glowing 20s linear infinite;
+            animation: glowing 20s linear infinite;
+            background: linear-gradient(45deg, red, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, red);
+            background-size: 400%;
+            border-radius: 10px;
+            content: "";
+            -webkit-filter: blur(5px);
+            filter: blur(5px);
+            height: calc(100% + 4px);
+            left: -2px;
+            opacity: 0;
+            position: absolute;
+            top: -2px;
+            transition: opacity .3s ease-in-out;
+            width: calc(100% + 4px);
+            z-index: -1;
+        }
+
+        .glow-on-hover:after {
+            background: #111;
+            border-radius: 10px;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .about__contact,
+        .about__desc {
+            margin-top: 2.4em;
+        }
+
+        .about__desc {
+            font-size: 1rem;
+            max-width: 600px;
+        }
+
+        user agent stylesheet p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .center {
+            align-items: center;
+            display: flex;
+        }
+
+        user agent stylesheet nav {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .nav__list {
+            display: flex;
+            margin-right: 1.5em;
+            text-decoration: none;
+        }
+
+        user agent stylesheet ul {
+            list-style-type: disc;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .link:before {
+            background-color: var(--clr-primary);
+            bottom: 0;
+            content: "";
+            display: inline;
+            height: 0.2em;
+            position: absolute;
+            transition: width .2s ease-in;
+            width: 0;
+        }
+
+        .link--icon,
+        .link--nav {
+            color: var(--clr-fg);
+        }
+
+        .link--nav {
+            font-weight: 500;
+            text-transform: lowercase;
+        }
+
+        .link,
+        .link:hover {
+            color: var(--clr-primary);
+        }
+
+        .link {
+            padding: 0 0 0.3em;
+            position: relative;
+        }
+
+        a {
+            font-family: Roboto;
+        }
+
+        .nav__list-item,
+        a {
+            text-decoration: none;
+        }
+
+        a {
+            background-color: transparent;
+        }
+
+        user agent stylesheet a:-webkit-any-link {
+            color: -webkit-link;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .nav__list-item {
+            list-style: none;
+            margin-left: 1.5em;
+        }
+
+        .footer__link {
+            color: var(--clr-fg);
+            font-size: .9rem;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 4em;
+            padding: 3em 0;
+            text-align: center;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .section {
+            margin-top: 5em;
+        }
+
+        section {
+            display: block;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .skills__list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 auto;
+            max-width: 450px;
+            width: 95%;
+        }
+
+        user agent stylesheet ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .app {
+            background-color: var(--clr-bg);
+            color: var(--clr-fg);
+            font-family: Poppins, sans-serif;
+            line-height: 1.5;
+        }
+
+        html {
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+    </style>
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div id="top" class="app">
+            <header class="header center">
+                <h3><a href="https://github.com/ASHIVANI62" class="link">Github</a></h3>
+                <nav class="center nav">
+                    <ul class="nav__list" style="display: flex;">
+                        <li class="nav__list-item">
+                            <a href="#projects" class="link link--nav">Projects</a>
+                        </li>
+                        <li class="nav__list-item"><a href="#skills" class="link link--nav">Skills</a></li>
+                        <li class="nav__list-item"><a href="#contact" class="link link--nav">Contact</a></li>
+                    </ul>
+                    <button type="button" class="btn btn--icon nav__hamburger" aria-label="toggle navigation">
+                        <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                            </path>
+                        </svg></button>
+                </nav>
+            </header>
+            <main>
+                <div class="about center">
+                    <img class="image1" height="200px" alt="Avatar placeholder"
+                        src="C:\Users\kanch\Downloads\WhatsApp Image 2022-01-28 at 8.32.44 AM (1).jpeg">
+                        
+                    <h1>Hi, I am <span class="about__name">K SHIVANI.</span></h1>
+                    <p class="about__desc">"I am passionate about technology and eager to apply my knowledge and skills to excel in the IT industry. With a proactive approach to learning, I'm ready to contribute, innovate, and grow as a professional in this dynamic field."</p>
+                    <div class="about__contact center">
+                        <a href="C:\Users\kanch\Downloads\Resume___CV.pdf">
+                            <span type="button" class="btn btn--outline">Resume</span>
+                        </a>
+                        <a href="https://github.com/shivani12c0" aria-label="github" class="link link--icon">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3">
+                                </path>
+                            </svg></a>
+                        <a href="https://www.linkedin.com/in/kancharla-shivani-86317a253" aria-label="linkedin"
+                            class="link link--icon"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
+                                aria-hidden="true">
+                                <path
+                                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+                <section id="projects" class="section projects">
+                    <h2 class="section__title">Projects</h2>
+                    <div class="projects__grid">
+                        <div class="project">
+                            <h3>Digital Learning</h3>
+                            <p class="project__description"> It is a Learning website made for everyone. It contains all the courses and complies related to programming languages.
+                                People can learn anywhere, anytime.
+                                – This is made using JavaScript, Node js, Express js and also using Firebase database</p>
+                            <ul class="project__stack">
+                                <li class="project__stack-item">Machine Learning</li>
+                                <li class="project__stack-item">Tensorflow</li>
+                                <li class="project__stack-item">OpenCV</li>
+                                <li class="project__stack-item">React JS</li>
+                                <li class="project__stack-item">MobileNet</li>
+                                <li class="project__stack-item">Keras</li>
+                            </ul><a href="https://github.com/shivani12c0/major-project" aria-label="source code"
+                                class="link link--icon"><svg class="MuiSvgIcon-root" focusable="false"
+                                    viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3">
+                                    </path>
+                                </svg></a>
+
+                </section>
+                <section class="section skills" id="skills">
+                    <h2 class="section__title">Skills</h2>
+                    <ul class="skills__list">
+                        <li class="skills__list-item btn btn--plain">C</li>
+                        <li class="skills__list-item btn btn--plain">CPP</li>
+                        <li class="skills__list-item btn btn--plain">Java</li>
+                        <li class="skills__list-item btn btn--plain">JavaScript</li>
+                        <li class="skills__list-item btn btn--plain">CSS</li>
+                        <li class="skills__list-item btn btn--plain">HTML</li>
+                        <li class="skills__list-item btn btn--plain">MySQL</li>
+                       </ul>
+                </section>
+                <section class="section contact center" id="contact">
+                    <h2 class="section__title">HIRE ME</h2><a href="mailto: 20wh1a12c0@bvrithyderabad.edu.in"><span
+                            type="button" class="glow-on-hover">Email me</span></a>
+                </section>
+            </main>
+            <footer class="footer"><a href="/" class="link footer__link">Created By K Shivani</a></footer>
+        </div>
+    </div>
+</body>
+
+</html>
